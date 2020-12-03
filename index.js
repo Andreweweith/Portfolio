@@ -32,8 +32,9 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 
-// require returns a function, then app is the argument for the function
+// require returns a function, then app is the argument for the function -- these are function calls
 require('./routes/authRoutes')(app);
+require('./routes/billingRoutes')(app);
 
 
 const PORT = process.env.PORT || 5000;
