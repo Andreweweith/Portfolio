@@ -12,7 +12,7 @@ class Payments extends Component {
         return (
             <StripeCheckout
                 name="Hey you, buy some credits!"
-                description="$5.00 for 5 email credits"
+                description="$5.00 for 5 useless credits"
                 // amount is in CENTS
                 amount={500} // 500 cents == 5 usd
                 token={token => this.props.handleToken(token)} // callback function, it's the token we receive back from stripe

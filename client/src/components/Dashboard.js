@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Landing = () => {
+const Dashboard = () => {
     return (
         <div style={{ textAlign: 'center' }}>
             <h1>
-                Welcome to my portfolio!
+                User Dashboard
             </h1>
             <hr/>
             <h5>This site is in-dev, but currently you can:</h5>
@@ -30,4 +30,4 @@ const Landing = () => {
     );
 };
 
-export default Landing;
+export default Dashboard;
