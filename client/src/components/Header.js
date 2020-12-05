@@ -38,7 +38,7 @@ class Header extends Component {
                         to={this.props.auth ? '/surveys' : '/'} 
                         className="left brand-logo"
                     >
-                        Andrew Weith - Portfolio
+                        Andrew Weith
                     </Link>
                     <ul className="right">
                         
