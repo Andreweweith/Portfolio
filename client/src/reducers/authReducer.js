@@ -8,7 +8,7 @@ export default function(state = null, action) {
         case FETCH_USER:
             // INCREDIBLY IMPORTANT - USE action.payload.data, NOT action.payload.
             // This caused many hours of frustration...
-            return action.payload.data || false;
+            return action.payload || false;
         default:
             return state;
     }
